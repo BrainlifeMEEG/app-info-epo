@@ -11,7 +11,7 @@ This Brainlife App reads the .info attribute of a MNE/Epochs instance and output
 * a MEG/EEG Raw file in fif format (mne/Epochs).
 
 #### Ouput file is:
-  * a .txt file with the .info attribute of the MNE/Raw instance.
+  * a .txt file with the .info attribute of the MNE/Epochs instance.
 
 ## Authors
 - Kamilya Salibayeva (ksalibay@iu.edu)
