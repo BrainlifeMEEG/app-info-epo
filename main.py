@@ -27,3 +27,12 @@ info = epo.info
 #Save the info into a info.txt file
 with open(os.path.join('out_dir','info.txt'), 'w') as f:
     f.write(str(info))
+    
+# create a product.json file to show the output
+dict_json_product = {'brainlife': []}
+
+info = str(info)
+dict_json_product['brainlife'].append({'type': 'message', 'msg': info})
+
+with open('product.json', 'w') as outfile:
+    json.dump(dict_json_product, outfile)
